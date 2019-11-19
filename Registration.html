@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="style_cre.css">
+</head>
+<body>
+	  <h2> Please Fill the below Details to Register</h2> <br>
+	  <!-- Comments for below code  -->
+		  <form method="POST"><!-- <br class="try"> -->
+		  <div class="try">
+		  	FirstName:     <input type="text" name="FirstName" ><br><br>
+		  	LastName:      <input type="text" name="LastName" ><br><br>
+		  	Email ID:      <input type="Email" name="EmailId" ><br><br>
+		  	Password:      <input type="Password" name="Password" minlength="4" maxlength="10" required > <br><br>
+		    Gender: 	
+		<!--	<ex class="ex"> -->
+		  		<input type="radio" name="Gender" value="male">Male
+		  		<input type="radio" name="Gender" value="female">Female
+		  		<input type="radio" name="Gender" value="other">Other<br><br>
+		  	Birthday: <input type="date" name="Birthday"><br><br>
+		  <!--	Pets : <br>
+		  		Cats <input type="checkbox" name="cat">
+		  		Dogs <input type="checkbox" name="dog"><br><br>
+		  	Cars : 
+		  	<select name="Cars">
+		  		<option>-Select-</option>
+		  		<option value="Nissan">Nissan</option>
+		  		<option value="Toyato">Toyato</option>
+		  		<option value="Ford">Ford</option>
+		  	</select><br><br><br>-->
+		  	<div class="left">
+		  	<input type="submit" name="Submit">
+		  	<input type="reset" name="Reset">
+		  </div>
+		 </div>
+		  </form>
+</body>
+</html>

@@ -1,0 +1,56 @@
+/* body,html{
+	text-align: center;
+}
+h2{
+	font-size: 20px;
+}
+
+form{
+	justify-content: space-between;
+	text-align: center;
+	font-size: 10px;
+
+} */
+body,html{
+	background-color: pink;
+}
+h2{
+	text-align: center;
+}
+	.container{
+		display: inline;
+		margin-left: 40rem;
+		text-align: right;
+		float: left;
+	}
+   .form {
+        margin: 0 auto;
+        width: 210px; 
+    }
+ /*   .form label{
+        display: inline-block;
+        text-align: right;
+        float: left;
+    } */
+    .form input{
+        display: inline-block;
+        text-align: left;
+        float: right;
+    }
+    a{
+    	font-size: 10px;
+    }
+.try{
+	margin-left: 1rem;
+	display: inline-block;
+	text-align: right;
+	float: left;
+}    
+.left{
+	display: inline-block;
+	margin-left: 5rem;
+}
+/* .ex{
+	margin-left: 1rem;
+	text-align: left;
+} */
